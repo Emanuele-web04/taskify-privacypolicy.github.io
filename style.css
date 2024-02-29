@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 22px;
+    font-family: "SF Pro Rounded";
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+h1 {
+    color: black;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.date {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+}
+
+.testo-logo {
+    margin-left: 10px;
+}
+
+a {
+    color: rgb(23, 197, 23);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 70px;
+    }
+    .testo-logo {
+        left: 80px;
+        top: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
